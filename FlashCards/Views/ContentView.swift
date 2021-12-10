@@ -14,6 +14,10 @@ struct ContentView: View {
     //It is randomly selected from the list of cards
     @State var currentCard = listOfCards.randomElement()!
     
+    
+    //What was the previous card
+    @State var previousCard = listOfCards.randomElement()!
+    
     //This controls whether the answer is visible
     @State var isAnswerShowing = false
     
@@ -48,9 +52,14 @@ struct ContentView: View {
             
             //show a new question
             Button(action: {
-                //get another question
-                withAnimation {
-                    currentCard = listOfCards.randomElement()!
+                //Keep track of the previous question
+                previousCard = currentCard
+                
+                //Loop forever until it picks a different new card
+                //Use the condition to say "keep looping when the condition is true"
+                while previousCard == currentCard {
+                    //get another question
+                        currentCard = listOfCards.randomElement()!
                 }
                 
                 //Hide the answer

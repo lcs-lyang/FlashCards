@@ -6,8 +6,9 @@
 //
 //DEfines the information we'lk track
 //"Blueprint" for a card
+//Make Card conform to the Equatable protocol
 import Foundation
-struct Card {
+struct Card: Equatable {
     let question: String
     let answer: String
 }
