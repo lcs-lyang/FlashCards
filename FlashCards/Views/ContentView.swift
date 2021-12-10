@@ -31,6 +31,7 @@ struct ContentView: View {
             //Check answer
             Button(action: {
                 //Reveal the answer
+                isAnswerShowing = true
             }, label: {
                 Text("Check")
             })
@@ -49,6 +50,7 @@ struct ContentView: View {
                 currentCard = listOfCards.randomElement()!
                 
                 //Hide the answer
+                isAnswerShowing = false
             }, label: {
                 Text("Another")
             })
