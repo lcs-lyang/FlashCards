@@ -11,6 +11,7 @@
 		192AA25A2763B3CE00E36AE8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AA2592763B3CE00E36AE8 /* ContentView.swift */; };
 		192AA25C2763B3D100E36AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192AA25B2763B3D100E36AE8 /* Assets.xcassets */; };
 		192AA25F2763B3D100E36AE8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 192AA25E2763B3D100E36AE8 /* Preview Assets.xcassets */; };
+		192AA2682763B62600E36AE8 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192AA2672763B62600E36AE8 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		192AA2592763B3CE00E36AE8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		192AA25B2763B3D100E36AE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		192AA25E2763B3D100E36AE8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		192AA2672763B62600E36AE8 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		192AA2652763B4CF00E36AE8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				192AA2672763B62600E36AE8 /* Card.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				192AA25A2763B3CE00E36AE8 /* ContentView.swift in Sources */,
+				192AA2682763B62600E36AE8 /* Card.swift in Sources */,
 				192AA2582763B3CE00E36AE8 /* FlashCardsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
