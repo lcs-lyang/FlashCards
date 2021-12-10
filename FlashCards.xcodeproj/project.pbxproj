@@ -52,7 +52,8 @@
 			isa = PBXGroup;
 			children = (
 				192AA2572763B3CE00E36AE8 /* FlashCardsApp.swift */,
-				192AA2592763B3CE00E36AE8 /* ContentView.swift */,
+				192AA2662763B4E700E36AE8 /* Views */,
+				192AA2652763B4CF00E36AE8 /* Model */,
 				192AA25B2763B3D100E36AE8 /* Assets.xcassets */,
 				192AA25D2763B3D100E36AE8 /* Preview Content */,
 			);
@@ -65,6 +66,21 @@
 				192AA25E2763B3D100E36AE8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		192AA2652763B4CF00E36AE8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		192AA2662763B4E700E36AE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				192AA2592763B3CE00E36AE8 /* ContentView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
